@@ -53,7 +53,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `* {
 }
 
 body {
-  background-color: #2fa8cc;
+  background-color: #2fcc7b;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ img {
 }
 
 .btn {
-  background-color: #2fa8cc;
+  background-color: #2fcc7b;
   color: #f4f4f4;
   border: 0;
   border-radius: 10px;
@@ -109,7 +109,7 @@ img {
 }
 .btn:focus {
   outline: 0;
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAMA;EACI,sBAAA;AAJJ;;AAOA;EACI,yBATY;EAUZ,iCAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,aAAA;EACA,gBAAA;EACA,SAAA;EACA,aAAA;AAJJ;;AAOA;EACI,yBArBc;EAsBd,mBAAA;EACA,wEAtBS;EAuBT,kBAAA;EACA,kBAAA;EACA,eAAA;EACA,YAAA;AAJJ;;AAOA;EACI,SAAA;EACA,YAAA;EACA,mBAAA;AAJJ;;AAOA;EACI,YAAA;EACA,mBAAA;AAJJ;;AAOA;EACI,eAAA;EACA,mBAAA;EACA,iBAAA;EACA,iBAAA;EACA,gBAAA;AAJJ;;AAOA;EACI,yBAnDY;EAoDZ,cAnDc;EAoDd,SAAA;EACA,mBAAA;EACA,uEAAA;EACA,kBAAA;EACA,eAAA;EACA,eAAA;AAJJ;AAMI;EACI,sBAAA;AAJR;AAOI;EACI,UAAA;AALR","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\");\n\n$primary-color: #2fa8cc;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\n\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    background-color: $primary-color;\n    font-family: \"Roboto\", sans-serif;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    height: 100vh;\n    overflow: hidden;\n    margin: 0;\n    padding: 20px;\n}\n\n.container {\n    background-color: $secondary-color;\n    border-radius: 10px;\n    box-shadow: $box-shadow;\n    padding: 50px 20px;\n    text-align: center;\n    max-width: 100%;\n    width: 800px;\n}\n\nh3 {\n    margin: 0;\n    opacity: 0.5;\n    letter-spacing: 2px;\n}\n\nimg {\n    width: 100px;\n    margin-bottom: 20px;\n}\n\n.joke {\n    font-size: 30px;\n    letter-spacing: 1px;\n    line-height: 40px;\n    margin: 50px auto;\n    max-width: 600px;\n}\n\n.btn {\n    background-color: $primary-color;\n    color: $secondary-color;\n    border: 0;\n    border-radius: 10px;\n    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\n    padding: 14px 40px;\n    font-size: 16px;\n    cursor: pointer;\n\n    &:active {\n        transform: scale(0.98);\n    }\n\n    &:focus {\n        outline: 0;\n    }\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAMA;EACI,sBAAA;AAJJ;;AAOA;EACI,yBATY;EAUZ,iCAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,aAAA;EACA,gBAAA;EACA,SAAA;EACA,aAAA;AAJJ;;AAOA;EACI,yBArBc;EAsBd,mBAAA;EACA,wEAtBS;EAuBT,kBAAA;EACA,kBAAA;EACA,eAAA;EACA,YAAA;AAJJ;;AAOA;EACI,SAAA;EACA,YAAA;EACA,mBAAA;AAJJ;;AAOA;EACI,YAAA;EACA,mBAAA;AAJJ;;AAOA;EACI,eAAA;EACA,mBAAA;EACA,iBAAA;EACA,iBAAA;EACA,gBAAA;AAJJ;;AAOA;EACI,yBAnDY;EAoDZ,cAnDc;EAoDd,SAAA;EACA,mBAAA;EACA,uEAAA;EACA,kBAAA;EACA,eAAA;EACA,eAAA;AAJJ;AAMI;EACI,sBAAA;AAJR;AAOI;EACI,UAAA;AALR","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\");\n\n$primary-color: #2fcc7b;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\n\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    background-color: $primary-color;\n    font-family: \"Roboto\", sans-serif;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    height: 100vh;\n    overflow: hidden;\n    margin: 0;\n    padding: 20px;\n}\n\n.container {\n    background-color: $secondary-color;\n    border-radius: 10px;\n    box-shadow: $box-shadow;\n    padding: 50px 20px;\n    text-align: center;\n    max-width: 100%;\n    width: 800px;\n}\n\nh3 {\n    margin: 0;\n    opacity: 0.5;\n    letter-spacing: 2px;\n}\n\nimg {\n    width: 100px;\n    margin-bottom: 20px;\n}\n\n.joke {\n    font-size: 30px;\n    letter-spacing: 1px;\n    line-height: 40px;\n    margin: 50px auto;\n    max-width: 600px;\n}\n\n.btn {\n    background-color: $primary-color;\n    color: $secondary-color;\n    border: 0;\n    border-radius: 10px;\n    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);\n    padding: 14px 40px;\n    font-size: 16px;\n    cursor: pointer;\n\n    &:active {\n        transform: scale(0.98);\n    }\n\n    &:focus {\n        outline: 0;\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -4809,4 +4809,4 @@ jokeBtn.addEventListener("click", _jokeGenerator__WEBPACK_IMPORTED_MODULE_0__["d
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlea794645d3d106a3ed665.js.map
+//# sourceMappingURL=bundle3d19df497a0752e000e1.js.map
